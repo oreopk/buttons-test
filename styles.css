@@ -1,0 +1,73 @@
+main {
+  margin: auto;
+
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buttons button {
+  width: 40px;
+  height: 40px;
+  outline: none;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.buttons {
+  display: inline-flex;
+}
+.email {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  border: 1px solid rgba(123, 126, 241, 1);
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0) 100%
+    ),
+    rgb(126, 130, 238);
+}
+.email:hover {
+  border: 1px solid rgb(70, 76, 227);
+
+  background: rgb(70, 76, 227);
+}
+.lock {
+  border: 1px solid rgba(123, 126, 241, 1);
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0) 100%
+    ),
+    rgb(126, 130, 238);
+  border-left: 0;
+  border-right: 0;
+}
+.lock:hover {
+  border: 1px solid rgb(70, 76, 227);
+  border-left: 0;
+  border-right: 0;
+  background: rgb(70, 76, 227);
+}
+.profile {
+  border: 1px solid rgba(227, 79, 79, 1);
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.4),
+      rgba(255, 255, 255, 0) 100%
+    ),
+    rgb(240, 88, 88);
+}
+.profile:hover {
+  border: 1px solid rgb(206, 65, 65);
+
+  background: rgb(220, 45, 45);
+}
+.img {
+  width: 16px;
+  height: 16px;
+}
